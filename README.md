@@ -1,17 +1,17 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/KU8eozPI)
-# Název mého web-projektu
-Práce se zabývá vytvořením webových stránek ...
+# Tomáškysův volný projektovník
+Můj web nabízí možnost udělat si rychlí IQ test a také si prohlédnout krásnou galerii všech mých kamarádů, kteří mě při kódování tohoto webu emocionálně podporovali.
 
 Nezapomenu upravit odkazy a "aktivovat" GitHub Pages... 
 [Webová stránka s ukázkovou implemetací](https://pslib-cz.github.io/<SEM_VKLADAM_NAZEV_PROJEKTU>/)
 
-[Návrh webové stránky ve Figmě](https://www.figma.com/)
+[Návrh webové stránky ve Figmě](https://www.figma.com/file/0GIaGy3HBlQRHP8dWlULOs/Volný-projekt?type=design&node-id=1-2&t=NegdqfMAB8cRolZm-0)
 
 ## ToDo
 - [x] Vytvořit repozitář projektu
-- [ ] Vytvořit Figma projekt
-- [ ] Aktivovat GitHub Pages
-- [ ] Upravit README.md (aktualizace odkazů na Figmu a Web)
+- [x] Vytvořit Figma projekt
+- [x] Aktivovat GitHub Pages
+- [x] Upravit README.md (aktualizace odkazů na Figmu a Web)
 - [ ] Hamburger menu (s JS)
 - [ ] Implementována [LightGallery](https://github.com/sachinchoolur/lightGallery)
 - [ ] Implementován [Swiper](https://swiperjs.com/) nebo [Glide](https://glidejs.com/)
