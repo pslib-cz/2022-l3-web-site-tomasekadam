@@ -3,7 +3,7 @@
 Můj web nabízí možnost udělat si rychlí IQ test a také si prohlédnout krásnou galerii všech mých kamarádů, kteří mě při kódování tohoto webu emocionálně podporovali.
 
 Nezapomenu upravit odkazy a "aktivovat" GitHub Pages... 
-[Webová stránka s ukázkovou implemetací](https://pslib-cz.github.io/<SEM_VKLADAM_NAZEV_PROJEKTU>/)
+[Webová stránka s ukázkovou implemetací](https://pslib-cz.github.io/2022-l3-web-site-tomasekadam/)
 
 [Návrh webové stránky ve Figmě](https://www.figma.com/file/0GIaGy3HBlQRHP8dWlULOs/Volný-projekt?type=design&node-id=1-2&t=NegdqfMAB8cRolZm-0)
 
