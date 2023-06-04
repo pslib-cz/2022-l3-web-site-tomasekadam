@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root{
+    --bezova :#D5C7BC;
+    --sedo-hneda : #454545;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: var(--bezova);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 0;
+    gap: 2em;
+}
+
+.header__company{
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.header__cats{
+    margin: 0 3em 0 0;
+    text-decoration: none;
+    color: black;
+}
+
+.header__contact{
+    padding: .5em 1em;
+    border-radius: .6em;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
+
+.main__heading{
+    margin-top: 2em;
+    text-align: center;
+}
+.main__question_box{
+    margin: 5em auto 0 auto;
+    display: flex;
+    width: 180px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main__question{
+    display: inline-block;
+    padding: .3em .5em;
+    background-color: var(--bezova);
+    text-decoration: none;
+    color: black;
+    border-radius: .4em;
+}
+.main__answers{
+    margin-top: 2.5em;
+    display: flex;
+    width: 170px;
+    justify-content: space-between;
+    
+}
+
+.main__answer{
+    padding: .8em 1em;
+    background-color: var(--bezova);
+    text-decoration: none;
+    color: black;
+    border-radius: .4em;
+}
+
+.foot{
+    background-color: var(--sedo-hneda);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: var(--bezova);
+    padding: 1.5em 0;
+}
