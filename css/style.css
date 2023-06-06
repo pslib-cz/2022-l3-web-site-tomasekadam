@@ -15,6 +15,11 @@ body{
     background-color: var(--skoro-bila);
 }
 
+.img-responsive {
+    width: 100%;
+    height: 100%;
+}
+
 .header{
     background-color: var(--bezova);
     display: flex;
@@ -33,11 +38,18 @@ body{
 }
 
 .header__cats{
-    margin: 0 3em 0 0;
+    margin: 0 1em 0 1em;
     text-decoration: none;
     color: black;
+    text-align: center;
 }
 
+@media only screen and (max-width: 600px) {
+    .header__cats{
+        display: block;
+        text-align: center;
+    }
+}
 .header__contact{
     padding: .5em 1em;
     border-radius: .6em;
@@ -84,7 +96,7 @@ body{
 
 .foot{
     background-color: var(--sedo-hneda);
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     text-align: center;
@@ -106,6 +118,11 @@ body{
 
 
 
+.right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 .right__question_box{
     margin: 5em auto 0 auto;
@@ -117,17 +134,13 @@ body{
 
 .right__question{
     display: inline;
-    padding: 0.5em 1em 0.5em 1em;
+    padding: 1em 1em 1em 1em;
     background-color: var(--zelena);
     text-decoration: none;
     color: black;
     border-radius: .4em;
     font-size: 1em;
-}
-.right__answers{
-    margin: 0 auto;
-    display: flex;
-    width: 170px;
+    margin-bottom: 5em;
 }
 
 .right__answer{
@@ -136,6 +149,7 @@ body{
     text-decoration: none;
     color: black;
     border-radius: .4em;
+    margin: 0 auto;
 }
 
 
@@ -152,6 +166,12 @@ body{
 
 
 
+
+.wrong {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 .wrong__question_box{
     margin: 5em auto 0 auto;
@@ -169,11 +189,7 @@ body{
     color: black;
     border-radius: .4em;
     font-size: 1em;
-}
-.wrong__answers{
-    margin: 0 auto;
-    display: flex;
-    width: 170px;
+    margin-bottom: 5em;
 }
 
 .wrong__answer{
@@ -182,4 +198,20 @@ body{
     text-decoration: none;
     color: black;
     border-radius: .4em;
+    margin: 0 auto;
+}
+
+.gallery__kotatka{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-top: 4%;
+}
+
+@media only screen and (max-width: 600px) {
+    .gallery__kotatka {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 4%;
+        margin-bottom: 25%;
+    }
 }
