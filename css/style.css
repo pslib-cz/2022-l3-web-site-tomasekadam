@@ -6,6 +6,7 @@
     --skoro-bila: #F1FFFA;
     --vinova: #785964;
     --zelena: #93B7BE;
+    --cerna: black;
 }
 
 body{
@@ -34,13 +35,13 @@ body{
     margin: 0;
     font-size: 1.5em;
     text-decoration: none;
-    color: black;
+    color: var(--cerna);
 }
 
 .header__cats{
     margin: 0 1em 0 1em;
     text-decoration: none;
-    color: black;
+    color: var(--cerna);
     text-align: center;
 }
 
@@ -50,12 +51,13 @@ body{
         text-align: center;
     }
 }
+
 .header__contact{
     padding: .5em 1em;
     border-radius: .6em;
     background-color: white;
     text-decoration: none;
-    color: black;
+    color: var(--cerna);
 }
 
 .main__heading{
@@ -75,7 +77,7 @@ body{
     padding: .3em .5em;
     background-color: var(--bezova);
     text-decoration: none;
-    color: black;
+    color: var(--cerna);
     border-radius: .4em;
 }
 .main__answers{
@@ -90,7 +92,7 @@ body{
     padding: .8em 1em;
     background-color: var(--bezova);
     text-decoration: none;
-    color: black;
+    color: var(--cerna);
     border-radius: .4em;
 }
 
@@ -137,7 +139,7 @@ body{
     padding: 1em 1em 1em 1em;
     background-color: var(--zelena);
     text-decoration: none;
-    color: black;
+    color: var(--cerna);
     border-radius: .4em;
     font-size: 1em;
     margin-bottom: 5em;
@@ -147,7 +149,7 @@ body{
     padding: .5em 1em;
     background-color: var(--bezova);
     text-decoration: none;
-    color: black;
+    color: var(--cerna);
     border-radius: .4em;
     margin: 0 auto;
 }
@@ -186,7 +188,7 @@ body{
     padding: 0.5em 1em 0.5em 1em;
     background-color: var(--vinova);
     text-decoration: none;
-    color: black;
+    color: var(--cerna);
     border-radius: .4em;
     font-size: 1em;
     margin-bottom: 5em;
@@ -196,7 +198,7 @@ body{
     padding: .5em 1em;
     background-color: var(--bezova);
     text-decoration: none;
-    color: black;
+    color: var(--cerna);
     border-radius: .4em;
     margin: 0 auto;
 }

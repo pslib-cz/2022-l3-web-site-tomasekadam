@@ -9,6 +9,17 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/normalize.min.css">
+
+    <link type="text/css" rel="stylesheet" href="lightGallery/css/lightgallery.css"/>
+    <link type="text/css" rel="stylesheet" href="lightGallery/css/lightgallery-bundle.css"/>
+
+
+    <script src="lightGallery/lightgallery.min.js"></script>
+    <script src="lightGallery/plugins/thumbnail/lg-thumbnail.min.js"></script>
+    <script src="lightGallery/plugins/zoom/lg-zoom.min.js"></script>
+    <script src="lightGallery/plugins/fullscreen/lg-fullscreen.min.js"></script>
+    <script src="lightGallery/plugins/autoplay/lg-autoplay.min.js"></script>
+
 </head>
 <body>
     <header class="header">
@@ -88,4 +99,14 @@
         <p class="foot__text">© Copyright 2023 - tomaskys.cz s.r.o.</p>
     </footer>
 </body>
+<script type="module">
+    lightGallery(document.querySelector(".gallery__kotatka"), {
+      plugins: [lgZoom, lgThumbnail, lgFullscreen, lgAutoplay],
+      speed: 500,
+  });
+  </script>
+
+  <script type="module">
+    import { } from "js/filtermod.js"
+</script>
 </html>
