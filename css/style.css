@@ -106,26 +106,6 @@ body{
     padding: 1.5em 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.right {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
 .right__question_box{
     margin: 5em auto 0 auto;
     display: flex;
@@ -135,13 +115,12 @@ body{
 }
 
 .right__question{
-    display: inline;
     padding: 1em 1em 1em 1em;
+    text-align: center;
     background-color: var(--zelena);
     text-decoration: none;
     color: var(--cerna);
     border-radius: .4em;
-    font-size: 1em;
     margin-bottom: 5em;
 }
 
@@ -169,28 +148,22 @@ body{
 
 
 
-.wrong {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
 .wrong__question_box{
-    margin: 5em auto 0 auto;
+    margin: 9em auto;
     display: flex;
-    width: 180px;
+    width: 300px;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .wrong__question{
     display: inline;
-    padding: 0.5em 1em 0.5em 1em;
+    text-align: center;
+    padding:1em;
     background-color: var(--vinova);
     text-decoration: none;
     color: var(--cerna);
     border-radius: .4em;
-    font-size: 1em;
     margin-bottom: 5em;
 }
 
@@ -209,7 +182,7 @@ body{
     margin-top: 4%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
     .gallery__kotatka {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
